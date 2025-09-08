@@ -1,4 +1,3 @@
-
 /* ------------------------------ Reset & Base Styles ------------------------------ */
 * {
   margin: 0;
@@ -17,25 +16,23 @@ body {
   justify-content: center;
 }
 
-
 /* ------------------------------ QR Card Component ------------------------------ */
 .qr-card {
-  padding: 16px 16px 40px;
+  padding: 1rem 1rem 2.5rem;
   background-color: #ffffff;
   display: inline-block;
   max-width: 320px;
   border-radius: 20px;
 }
 
-
 /* ------------------------------ QR Image ------------------------------ */
 .qr-card_image {
-  width: 288px;
-  height: 288px;
+  width: 100%;
+  max-width: 288px;
+  height: auto;
   margin-bottom: 24px;
   border-radius: 10px;
 }
-
 
 /* ------------------------------ QR Card Text Content ------------------------------ */
 .qr-card_content {
