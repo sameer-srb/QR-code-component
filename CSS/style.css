@@ -37,6 +37,7 @@ body {
 /* ------------------------------ QR Card Text Content ------------------------------ */
 .qr-card_content {
   text-align: center;
+  padding: 0 1rem;
 }
 
 .qr-card_title {
@@ -44,6 +45,7 @@ body {
   font-weight: 700;
   line-height: 120%;
   margin-bottom: 16px;
+  color: #1f314f;
 }
 
 .qr-card_description {
@@ -51,4 +53,5 @@ body {
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.2px;
+  color: #68778d;
 }
